@@ -1,0 +1,40 @@
+:root {
+  --white: #ffffff;
+  --black: #212121;
+  --primary: #297EA6;
+  --secundary: #002233;
+  --third: #038373;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Krub', sans-serif;
+}
+.title {
+  text-align: center;
+  color: var(--primary);
+  font-size: 3.8rem;
+  font-weight: normal;
+}
+.title span {
+  font-size: 2rem;
+}
+.bg-nav {
+  background-color: var(--secundary);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.main-nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-nav a {
+  color: var(--white);
+  text-decoration: none;
+}
